@@ -55,7 +55,7 @@ class Graph:
         visited = set()
         # While the queue is not empty
         while q.size() > 0:
-            # Dequeue the first vertex
+            # Dequeue/pop the first vertex
             vertex = q.dequeue()
         # Check if its been visited
             # If it has NOT been visited...
@@ -266,3 +266,6 @@ if __name__ == '__main__':
     '''
     print(graph.dfs(1, 6))
     print(graph.dfs_recursive(1, 6))
+
+
+
